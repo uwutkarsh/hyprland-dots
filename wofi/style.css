@@ -1,0 +1,62 @@
+/* Global settings */
+* {
+    font-family: "Noto Sans", sans-serif; /* A good, clean sans-serif font */
+    font-size: 16px; /* Slightly smaller, more common size */
+    font-weight: normal; /* Ensures it's not bold by default unless specified */
+}
+
+/* Main Wofi window */
+window {
+    background-color: rgba(30, 30, 30, 0.9); /* Dark grey, almost black, with 90% opacity */
+    border: 2px solid rgba(191, 140, 255, 0.7); /* Light purplish border with transparency */
+    border-radius: 8px; /* Slightly rounded corners for a modern look */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+}
+
+/* Input bar */
+#input {
+    color: rgba(255, 255, 255, 1.0); /* White text for input */
+    background-color: rgba(45, 45, 45, 0.9); /* Slightly lighter dark grey for input bar */
+    border: none; /* Remove borders from input, using padding for separation */
+    border-bottom: 1px solid rgba(191, 140, 255, 0.5); /* Subtle light purplish bottom separator */
+    padding: 10px 15px; /* More padding for better spacing */
+    font-size: 18px; /* Slightly larger input font */
+    border-top-left-radius: 6px; /* Match window radius */
+    border-top-right-radius: 6px;
+}
+
+/* Inner box containing entries */
+#inner-box {
+    padding: 5px; /* Padding inside the entry container */
+}
+
+/* Individual entry (application name) */
+#entry {
+    background-color: transparent; /* Keep entries transparent by default */
+    color: rgba(200, 200, 200, 1.0); /* Soft white/light grey for default text */
+    padding: 8px 15px; /* Padding for each entry */
+    margin: 2px 0; /* Small vertical margin between entries */
+    border-radius: 4px; /* Slightly rounded corners for entries */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Smooth transition for hover/select */
+}
+
+/* Selected entry (this is what gets highlighted on hover/selection) */
+#entry:selected {
+    background-color: rgba(70, 70, 70, 0.8); /* A slightly lighter grey for selected/hovered item */
+    color: rgba(255, 255, 255, 1.0); /* White text on selected grey background */
+    border: none; /* No extra border on selected */
+    font-weight: bold; /* Make selected text bold */
+}
+
+/* Text inside entries */
+#text {
+    color: inherit; /* Inherit color from parent (#entry or #entry:selected) */
+    margin-left: 5px; /* Adjust if you use icons, otherwise can be 0 */
+}
+
+/* Optional: Icon styling if allow_images=true in your config */
+#img {
+    min-width: 24px;
+    min-height: 24px;
+    margin-right: 10px; /* Space between icon and text */
+}
