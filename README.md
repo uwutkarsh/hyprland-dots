@@ -3,7 +3,7 @@ my rice --> https://www.reddit.com/r/unixporn/comments/1l1lbnl/my_arch_hyprland_
 fonts required : 
 Noto Sans CJK JP", "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif, Noto Sans CJK JP,Droid Sans 10
 
-
-credit for waybar : https://github.com/d00m1k/SimpleBlueColorWaybar
-i modified this with extra spotify script , font and the colors . 
+i modified the waybar  with extra spotify script , font and the colors .
+but the baseline credit :  https://github.com/d00m1k/SimpleBlueColorWaybar
+ 
 
