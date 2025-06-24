@@ -5,5 +5,6 @@ Noto Sans CJK JP", "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, 
 
 i modified the waybar  with extra spotify script , font and the colors .
 but the baseline credit :  https://github.com/d00m1k/SimpleBlueColorWaybar
+The transparency in dunst doesnt seem to work , probably its not natively for wayland compositors , i have no idea in that ,  i tired few window rules in hyprland but doesnt seem to work .
  
 
