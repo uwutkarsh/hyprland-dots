@@ -9,5 +9,7 @@ but the baseline credit :  https://github.com/d00m1k/SimpleBlueColorWaybar
 
 
 The transparency in dunst doesnt seem to work , probably its not natively for wayland compositors , i have no idea in that ,  i tired few window rules in hyprland but doesnt seem to work .
+
+Also ignore the wallapaper i have loaded in my hyprpaper.conf ,  make sure to remove the path from the preload and wallpaper to whatever you have saved in your directory .
  
 
